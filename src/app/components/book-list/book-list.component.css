@@ -1,0 +1,13 @@
+table {
+  margin: auto;
+  border: 3px black solid;
+  width: 300px;
+}
+
+th, td {
+  border: 3px black solid;
+}
+
+h5{
+  text-align: center;
+}

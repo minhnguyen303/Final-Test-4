@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import {BookListComponent} from './components/book-list/book-list.component';
 import {BookReadComponent} from './components/book-read/book-read.component';
 import { HomeComponent } from './components/home/home.component';
+import {HttpClientModule} from '@angular/common/http';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { HomeComponent } from './components/home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

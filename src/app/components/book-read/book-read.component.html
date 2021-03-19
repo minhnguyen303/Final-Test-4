@@ -1,1 +1,13 @@
-<p>book-read works!</p>
+<table>
+  <caption>
+    <a routerLink="/">Về trang chủ</a>
+    <h3>Danh sách đã đọc</h3>
+  </caption>
+  <tr *ngFor="let book of books; let i = index">
+    <td *ngIf="book.read == true">{{ book.name }}</td>
+    <td *ngIf="book.read == true">
+      <button (click)="makeNotRead(i)">Đọc lại</button>
+    </td>
+  </tr>
+</table>
+<h5><a routerLink="/book-list">Danh sách đọc</a></h5>

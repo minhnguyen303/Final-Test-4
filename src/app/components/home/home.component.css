@@ -1,0 +1,12 @@
+table {
+  margin: auto;
+  border: 3px black solid;
+}
+
+th{
+  border: 3px black solid;
+}
+
+button{
+  float: right;
+}
